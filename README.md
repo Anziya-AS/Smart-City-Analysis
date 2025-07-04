@@ -42,7 +42,7 @@ The goal is to extract insights that can guide smart city planning, improve citi
 ## 📊 Sample Dashboards
 ## 📄 Dashboard Report
 
-📊 View the full Smart City dashboard 👉 [Click here to open PDF](Smart City Analysis Dashboard.pdf)
+📊 View the full Smart City dashboard 👉 [Click here to open PDF]Smart City Analysis Dashboard.pdf
 
 
 ![Traffic Congestion Map](images/traffic_map.png)
