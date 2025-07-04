@@ -28,7 +28,7 @@ The goal is to extract insights that can guide smart city planning, improve citi
 - Traffic flow reports from city surveillance
 - Accident logs by date/location/severity
 - Pollution data (PM2.5, NO2, CO2) by region and time
-
+https://github.com/Anziya-AS/Smart-City-Analysis/blob/main/Air%20Pollution%20Dataset.csv
 ---
 
 ## 🔍 Key Insights
