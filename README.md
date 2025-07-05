@@ -60,4 +60,11 @@ DIVIDE(
 -- Average speed recorded in traffic
 Average Speed = AVERAGE('Traffic Condition'[Speed])
 
+## 🔍 Key Insights
+
+- 🚦 **Traffic**: Identified peak traffic hours (8–10 AM, 5–8 PM) and major bottlenecks in Tier 1 cities
+- ⚠️ **Accidents**: High-risk zones were mapped near intersections with poor visibility and high congestion
+- 🌫️ **Air Pollution**: Found strong correlation between traffic volume and spikes in AQI (PM2.5, NO2)
+- 🏙️ **Urban Planning**: Tier 2 and Tier 3 cities had better average air quality but poorer road safety metrics
+- 📈 **Insight Impact**: Dashboard allows policymakers to prioritize resources toward high-risk locations
 
