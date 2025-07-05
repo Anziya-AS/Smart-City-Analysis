@@ -42,8 +42,7 @@ CALCULATE(
     COUNT('Road Accident Dataset'[Accident_ID]),
     'Road Accident Dataset'[Severity] = "Fatal"
 )
-
-
+---
 ## 🔍 Key Insights
 
 - 🚦 Identified peak traffic hours and bottlenecks
