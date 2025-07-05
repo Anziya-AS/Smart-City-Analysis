@@ -73,7 +73,8 @@ smart-city-analysis/
 
 You can view or download the project presentation here:
 
-📊 [Smart City Analysis Presentation.pptx](Smart%20City%20Analysis%20Presentation.pptx)
+📊 [Smart_City_Analysis_Project_Anziya.pptx](Smart_City_Analysis_Project_Anziya.pptx)
+
 
 ---
 
