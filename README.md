@@ -43,11 +43,6 @@ CALCULATE(
     'Road Accident Dataset'[Severity] = "Fatal"
 )
 
-Percentage Congested = 
-DIVIDE(
-    COUNTROWS(FILTER('Traffic Condition', [Congestion_Level] = "High")),
-    COUNTROWS('Traffic Condition')
-)
 
 ## 🔍 Key Insights
 
