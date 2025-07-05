@@ -32,17 +32,49 @@ The goal is to extract insights that can guide smart city planning, improve citi
 ---
 ## 🧠 Key DAX Measures Used
 
-DAX
+```DAX
+-- Total number of recorded accidents
 Total Accidents = COUNT('Road Accident Dataset'[Accident_ID])
 
+-- Average Air Quality Index
 Average AQI = AVERAGE('Air Pollution Dataset'[AQI])
 
+-- Count of fatal accidents only
 Fatal Accidents = 
 CALCULATE(
     COUNT('Road Accident Dataset'[Accident_ID]),
     'Road Accident Dataset'[Severity] = "Fatal"
 )
+
+-- Percentage of High Congestion Levels
+High Congestion % = 
+DIVIDE(
+    COUNTROWS(
+        FILTER('Traffic Condition', 'Traffic Condition'[Congestion_Level] = "High")
+    ),
+    COUNTROWS('Traffic Condition')
+)
+
+-- Average speed recorded in traffic
+Average Speed = AVERAGE('Traffic Condition'[Speed])
+
 ---
+
+### 📌 Where to Paste This:
+
+1. Go to your repository `Smart-City-Analysis`
+2. Click on the `README.md` file
+3. Click the ✏️ “Edit” button
+4. Replace the **DAX Measures section** with this formatted block
+5. Scroll down and click **“Commit changes”**
+
+---
+
+Now it’ll look beautiful and clean, just like real project documentation 💼💻
+
+Let me know if you want help doing the same for your **Insights** or **Sample Dashboards** section!
+
+
 ## 🔍 Key Insights
 
 - 🚦 Identified peak traffic hours and bottlenecks
