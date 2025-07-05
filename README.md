@@ -30,6 +30,24 @@ The goal is to extract insights that can guide smart city planning, improve citi
 - Pollution data (PM2.5, NO2, CO2) by region and time (https://drive.google.com/file/d/12l7Q-tmy3ZrnliCZlSLMuAIJZnIcJWHZ/view?usp=drive_link)
 
 ---
+## 🧠 Key DAX Measures Used
+
+```DAX
+Total Accidents = COUNT('Road Accident Dataset'[Accident_ID])
+
+Average AQI = AVERAGE('Air Pollution Dataset'[AQI])
+
+Fatal Accidents = 
+CALCULATE(
+    COUNT('Road Accident Dataset'[Accident_ID]),
+    'Road Accident Dataset'[Severity] = "Fatal"
+)
+
+Percentage Congested = 
+DIVIDE(
+    COUNTROWS(FILTER('Traffic Condition', [Congestion_Level] = "High")),
+    COUNTROWS('Traffic Condition')
+)
 
 ## 🔍 Key Insights
 
