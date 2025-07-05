@@ -25,10 +25,10 @@ The goal is to extract insights that can guide smart city planning, improve citi
 
 ## 📊 Data Sources
 
-- Traffic flow reports from city surveillance
-- Accident logs by date/location/severity
-- Pollution data (PM2.5, NO2, CO2) by region and time
-https://github.com/Anziya-AS/Smart-City-Analysis/blob/main/Air%20Pollution%20Dataset.csv
+- Traffic flow reports from city surveillance(https://drive.google.com/file/d/15AJcpva0xW4FcQ1XDwZHvVgtcn78KANq/view?usp=sharing)
+- Accident logs by date/location/severity(https://drive.google.com/file/d/1kqqTtBh7NlUtnmKUPGcFLGRrq-t4UEdi/view?usp=sharing)
+- Pollution data (PM2.5, NO2, CO2) by region and time (https://drive.google.com/file/d/12l7Q-tmy3ZrnliCZlSLMuAIJZnIcJWHZ/view?usp=drive_link)
+
 ---
 
 ## 🔍 Key Insights
@@ -40,7 +40,7 @@ https://github.com/Anziya-AS/Smart-City-Analysis/blob/main/Air%20Pollution%20Dat
 ---
 
 ## 📊 Sample Dashboards
-## 📄 Dashboard Report
+
 
 📊 View the full Smart City dashboard ## 📄 Dashboard Report
 
