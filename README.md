@@ -69,6 +69,11 @@ smart-city-analysis/
 │ └── accident_heatmap.png
 └── README.md
 
+## 🎥 Project Presentation
+
+You can view or download the project presentation here:
+
+📊 [Smart City Analysis Presentation.pptx](Smart%20City%20Analysis%20Presentation.pptx)
 
 ---
 
