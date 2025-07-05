@@ -32,7 +32,7 @@ The goal is to extract insights that can guide smart city planning, improve citi
 ---
 ## 🧠 Key DAX Measures Used
 
-```DAX
+DAX
 Total Accidents = COUNT('Road Accident Dataset'[Accident_ID])
 
 Average AQI = AVERAGE('Air Pollution Dataset'[AQI])
